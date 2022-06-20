@@ -9,7 +9,7 @@ const inputSubmit = document.querySelector('input[type="submit"]');
 
 console.log(inputNumero, inputNome, inputEmail, inputSenha, inputSubmit);
 
-inputSubmit.disabled = true;
+// inputSubmit.disabled = true;
 
     
     document.addEventListener('click', () => {
@@ -17,9 +17,9 @@ inputSubmit.disabled = true;
         console.log('Hello')
         console.log(inputNumero.value, inputNome.value, inputEmail.value, inputSenha.value)
 
-        if(inputNumero.value = '', inputNome.value = '', inputEmail.value = '', inputSenha.value = '') {
-            inputSubmit.disabled = true;
-        }
+        // if(inputNumero.value = '', inputNome.value = '', inputEmail.value = '', inputSenha.value = '') {
+        //     inputSubmit.disabled = true;
+        // }
     })
 
     if (inputNumero.value, inputNome.value, inputEmail.value, inputSenha.value) {
