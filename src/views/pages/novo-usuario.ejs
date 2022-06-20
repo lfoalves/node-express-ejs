@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadatro de Usuário | Copyright</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.fronteditor.dev/assets/favicon.4b33a4df.svg" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/cadastro.css">
+    <!-- SCRIPT -->
+    <script src="/scripts/form.js" defer></script>
+</head>
+<body>
+
+    <div class="app">
+        <div class="container">
+            <a href="/">Voltar para o ínicio</a>
+            <h1>Cadastrar Usuário</h1>
+
+            <form action="/cadastramento" method="POST">
+                <input type="number" name="tCodigo" id="cCodigo" placeholder="Insira um código" />
+                <input type="text" name="tNome" id="cNome" placeholder="Nome completo" />
+                <input type="email" name="tEmail" id="cEmail" placeholder="Email" />
+                <input type="password" name="tSenha" id="cSenha" placeholder="Senha" />
+                <input type="submit" value="Cadastrar">
+            </form>
+
+            <!-- footer -->
+            <%- include('../partials/footer') %>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #888;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: none;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    padding: .5rem;
+    color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+}
